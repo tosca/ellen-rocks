@@ -4,11 +4,13 @@
 }
 
 body {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 48px;
   height: auto;
   width: 100%!important;
-  background-color: #434343;
-  color:#434343;
+  background-color: #49abdc;
+  background-color:#82c1c6;
+  color:#032d50;
 }
 * {
   box-sizing: border-box;
@@ -23,13 +25,11 @@ body {
   -webkit-transform: scale(1.2); 
   transform: scale(1.2); 
 }
-h2, h3 { 
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 400;
+h1, h2, h3 { 
+  font-family: 'Nunito Sans', sans-serif;
+   font-weight: 400;
 }
-.architects {
-  font-family: 'Architects Daughter', cursive;
-}
+
 img {
   width: 100%; 
   height: auto;
@@ -53,31 +53,24 @@ img {
 }
 .logo {
   max-width: 4rem;
+  max-height: 4rem;
 }
 .header-section { 
   text-align: center;
-  background-color: #b8bd56;
-  color:#434343;
   padding: 1rem;  
 }
-.header-section h1{
-   font-size: 3rem;
-}
+
 .header-section img{
-  background-image: url("./img/debpots-sq.png"); 
+  background-image: url("./img/color-bg.jpg"); 
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 3rem;
 }
 .head-text { 
   text-align: center;
-  font-family: 'Montserrat Alternates', sans-serif;
   padding: 1rem 0rem;
   border-radius: 5px;
-  color:#d0d1cd;
-  color: #131212;
-  margin: auto;
- /* margin-bottom: 1rem;*/
+   
+
 }
 main{ 
   background: #8b8f8f;
@@ -160,12 +153,12 @@ grid-template-columns: repeat(12, 1fr) */
   }
 .pouring  { 
   background-color: #b8bd56;
-  color: #434343
+  color:#032d50;
   
 }
-.drinking { 
- background-color: #434343;
-  color: #b8bd56;
+.earrings-1 { 
+  background-color: #aee4f9;
+  color:#032d50;
 }
 .bowls { 
   background-color: #434343;
