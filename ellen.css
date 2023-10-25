@@ -5,10 +5,10 @@
 
 body {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 48px;
+  font-family: 'Playfair Display', serif;
   height: auto;
   width: 100%!important;
-  background-color: #49abdc;
+  background-color: #cfefff;
   background-color:#82c1c6;
   color:#032d50;
 }
@@ -26,7 +26,7 @@ body {
   transform: scale(1.2); 
 }
 h1, h2, h3 { 
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
    font-weight: 400;
 }
 
