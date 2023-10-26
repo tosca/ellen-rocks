@@ -9,7 +9,8 @@ body {
   height: auto;
   width: 100%!important;
   background-color: #cfefff;
-  background-color:#82c1c6;
+  
+  background-color: #eef4f8;
   color:#032d50;
 }
 * {
@@ -22,8 +23,8 @@ body {
 }
 
 .zoom:hover {
-  -webkit-transform: scale(1.2); 
-  transform: scale(1.2); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
 }
 h1, h2, h3 { 
   font-family: 'Playfair Display', sans-serif;
@@ -39,41 +40,33 @@ img {
   height: auto;
   padding: 5rem 0rem;
 }
-.lic-black { 
-  color:#434343;
-}
+
 .pebble { 
   color: #8b8f8f;
-}
-.limey { 
-  color: #b8bd56;
-}
-.limey-dk { 
-  color: #91981b;
 }
 .logo {
   max-width: 4rem;
   max-height: 4rem;
 }
-.header-section { 
+ .header-section { 
+  color: white;
+  color: #b66816;
   text-align: center;
   padding: 1rem;  
 }
-
-.header-section img{
-  background-image: url("./img/color-bg.jpg"); 
+.header-section {
+  background-image: url('img/rocks-on-brazos-river.jpg');
+  background-size: contain; 
   background-repeat: no-repeat;
-  background-position: left;
-}
+  background-size: 30% auto;
+} 
 .head-text { 
   text-align: center;
   padding: 1rem 0rem;
   border-radius: 5px;
-   
-
 }
 main{ 
-  background: #8b8f8f;
+  background: #ecf3f3;
 }
 /* 01. place items center*/
 .center-item { 
@@ -122,6 +115,7 @@ grid-template-columns: repeat(12, 1fr) */
   display: grid;
   padding: 1rem;
   margin: 15px;
+  margin: 30px;
   background: rgb(221, 195, 156);
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 5, 1fr;
@@ -157,7 +151,7 @@ grid-template-columns: repeat(12, 1fr) */
   
 }
 .earrings-1 { 
-  background-color: #aee4f9;
+ /* background-color: #e9ecef;*/
   color:#032d50;
 }
 .bowls { 
@@ -175,7 +169,7 @@ grid-template-columns: repeat(12, 1fr) */
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 0.7rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .ram .box { 
