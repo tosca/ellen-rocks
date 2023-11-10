@@ -1,84 +1,114 @@
 *, *:before, *:after {
   margin: 0;
   padding: 0;
+}* 
+{
+  box-sizing: border-box;
 }
-
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Playfair Display', serif;
+  font-weight: 300;
+   display: block; 
+   width: 100%;
   height: auto;
-  width: 100%!important;
-  background-color: #cfefff;
-  
-  background-color: #eef4f8;
-  color:#032d50;
+ background-color: #cfefff;
+ background-color: #eef4f8;
+ background-color: #ffffff;
+  color:#011523;
 }
-* {
-  box-sizing: border-box;
+blue{
+  color:#0099ff;
+}
+.blue-gradient {
+  background-image: var(--bs-gradient);
+}
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+h5, h6, p {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: left;
+}
+img {
+  width: 100%; 
+  height: auto;
+}
+p { margin-top: 1rem;
+}
+.top-banner {
+  background-color:#dfe5ec;
+  background-color:#89b8ef;
+
+}
+.header-section {
+  background-color: #227be1;
+  background-color: white;
+ 
+}
+.header-section img {
+  background-image: url(img/rocks-brazos-grad.png);
+  background-repeat: no-repeat;
+  background-position:left ;
+}
+.ebn {
+  color: #dee2d6;
+  color:rgb(216, 216, 216);
+  color: #df7520;
+}
+.head-logo {
+  width: 15%;
+}
+.block-card {
+  width:100%;
+}
+.blockquote-text {
+  text-align: center;
+  color:#6c757d;
+  padding-left: 3rem;
+}
+.logo {
+  max-width: 4rem;
+}
+.show {
+  padding-top: 50px;
+}
+.stones {
+   background-color:#dfe5ec;  
+}
+.keum {
+  background-color:#ffdba6;
+}
+.bio { 
+  background-color:rgb(127,178, 197);
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight :400;
+  font-size: large;
+  line-height: 1.5em;
+}
+.fossil {
+  width: 60%;
+}
+.back-color {
+  background-color:#90a4b7;
 }
 .zoom {
   background-color: white;
   transition: transform .3s;
   margin: 0 auto; 
 }
-
 .zoom:hover {
   -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
 }
-h1, h2, h3 { 
-  font-family: 'Playfair Display', sans-serif;
-   font-weight: 400;
+.figure-caption {
+  margin-top: 1.5rem;
+  font-family: 'Nunito Sans', serif;
+  font-weight: 400;
+  font-size: 1.4em;
 }
 
-img {
-  width: 100%; 
-  height: auto;
-}
-.section { 
-  width: 100%;
-  height: auto;
-  padding: 5rem 0rem;
-}
-
-.pebble { 
-  color: #8b8f8f;
-}
-.logo {
-  max-width: 4rem;
-  max-height: 4rem;
-}
- .header-section { 
-  color: white;
-  color: #b66816;
-  text-align: center;
-  padding: 1rem;  
-}
-.header-section {
-  background-image: url('img/rocks-on-brazos-river.jpg');
-  background-size: contain; 
-  background-repeat: no-repeat;
-  background-size: 30% auto;
-} 
-.head-text { 
-  text-align: center;
-  padding: 1rem 0rem;
-  border-radius: 5px;
-}
-main{ 
-  background: #ecf3f3;
-}
-/* 01. place items center*/
-.center-item { 
-  display: flex;
-  flex: 0 1 350px; /*8 no stretching*/
-  padding: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-  resize: both;
-  overflow: auto;
-}
+/**************/
 /*02. The Deconstructed Pancake 
 flex: 0 1 <baseWidth>*/
 .pancake {
@@ -86,21 +116,13 @@ flex: 0 1 <baseWidth>*/
   padding: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .pancake .box {
   flex: 1 1 150px; /*  Stretching: */
-  /*  flex: 0 1 150px;  No stretching: */
   margin: 10px;
   padding: 1rem;
   background:#f8f9fa;
   text-align: center;
-}
-.bio { 
-  background-color: #434343;
-}
-.text-lt { 
-  text-align: left;
 }
  /* 04. Pancake Stack
 grid-template-rows: auto 1fr auto 
@@ -125,7 +147,7 @@ grid-template-columns: repeat(12, 1fr) */
 }  
 .span-12 {
   display: grid;
-  color: #be3c09;
+  color: #0921be;
   place-items: center;
   grid-column: 1 / span 12;
   width: 100%; 
@@ -139,84 +161,39 @@ grid-template-columns: repeat(12, 1fr) */
   height: auto;
   }
 
-  /* centering text */
-  .ex6 .section {
-    display: grid;
-    place-items: center;
-    text-align: center;
-  }
-.pouring  { 
-  background-color: #b8bd56;
-  color:#032d50;
-  
-}
-.earrings-1 { 
- /* background-color: #e9ecef;*/
-  color:#032d50;
-}
-.bowls { 
-  background-color: #434343;
-  color: #b8bd56;
-}
-.ecclectic { 
-  background-color: #8b8f8f;
-  color: #434343;
-}
-.mixed-media { 
-  background-color: #b8bd56;
-}
   /* 07. RAM (Repeat, Auto, Minmax)
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .ram .box { 
   place-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
+}
+.ram-bio {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
 }
 .statement { 
   background-color: white;
 }
   /* 08. Line Up justify-content: space-between */
 .card-lineup { 
-  background-color: #434343;
+  background-color: #7a1f1f;
   height: auto;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(2, 1fr);
 }
-.visual { 
-  height: auto;
-  width: auto;
-  margin: 0.5rem;
- 
-}
-.card { 
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  justify-content: space-between;
-  background-color: #f8f9fa;
-}
 footer { 
-  text-align: center;
-  background:#b8bd56;
-  color: #434343;
-  padding: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  background-color:#e6a54a;
 }
-a, a:hover {
-  -webkit-transition: all 350ms ease-in-out 0s;
-  -moz-transition: all 350ms ease-in-out 0s;
-  -o-transition: all 350ms ease-in-out 0s;
-  transition: all 350ms ease-in-out 0s;
-  background-size: 2%;
-  opacity: 1;
+a {
+ color: rgb(7, 115, 161);
 }
-
-  
-
+a:hover {
+  color: rgb(159, 118, 35);
+}
