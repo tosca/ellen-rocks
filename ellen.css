@@ -28,6 +28,7 @@ blue{
 h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
   font-family: 'Cormorant Unicase', serif;
+  font-weight: 400;
 }
 h5, h6, p {
   font-family: 'Nunito Sans', sans-serif;
@@ -47,37 +48,20 @@ p { margin-top: 1rem;
 .header-section {
   background-color: #227be1;
   background-color: white;
- 
-}
-.header-section img {
-  background-image: url(img/rocks-brazos-grad.png);
-  background-repeat: no-repeat;
-  background-position:left ;
+
 }
 .ebn {
   color: #dee2d6;
   color:rgb(216, 216, 216);
   color: #df7520;
+  color: #ae4d00;
 }
 .head-logo {
   width: 15%;
 }
-.facinated {
-  text-transform: uppercase;
-}
-.block-card {
-  width:100%;
-}
-.blockquote-text {
-  text-align: center;
-  color:#6c757d;
-  padding-left: 3rem;
-}
-.logo {
-  max-width: 4rem;
-}
-.show {
-  padding-top: 50px;
+.fascinated {
+ text-transform: uppercase;
+  width:70%;
 }
 .stones {
    background-color:#dfe5ec;  
@@ -92,8 +76,9 @@ p { margin-top: 1rem;
   font-size: large;
   line-height: 1.5em;
 }
-.fossil {
-  width: 60%;
+
+.voices {
+  max-width:10rem;
 }
 .back-color {
   background-color:#90a4b7;
