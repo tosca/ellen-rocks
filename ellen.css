@@ -33,20 +33,19 @@ h1, h2, h3, h4 {
 h5, h6, p {
   font-family: 'Nunito Sans', sans-serif;
   text-align: left;
-}
+}/*p 
 img {
   width: 100%; 
   height: auto;
 }
-p { margin-top: 1rem;
-}
+{ margin-top: 1rem;
+}*/
 .top-banner {
   background-color:#dfe5ec;
   background-color:#89b8ef;
-
+  background-color: #227be1;
 }
 .header-section {
-  background-color: #227be1;
   background-color: white;
 
 }
@@ -78,7 +77,7 @@ p { margin-top: 1rem;
 }
 
 .voices {
-  max-width:10rem;
+  max-width:12rem;
 }
 .back-color {
   background-color:#90a4b7;
