@@ -44,6 +44,7 @@ img {
   background-color:#dfe5ec;
   background-color:#89b8ef;
   background-color: #227be1;
+  height: 7px;
 }
 .header-section {
   background-color: white;
@@ -54,19 +55,28 @@ img {
   color:rgb(216, 216, 216);
   color: #df7520;
   color: #ae4d00;
+  color:#227be1;
+
 }
 .head-logo {
   width: 15%;
 }
 .fascinated {
- text-transform: uppercase;
   width:70%;
+  color:#011523;
+  color:darkblue;
 }
 .stones {
-   background-color:#dfe5ec;  
+   background-color:#dfe5ec; 
+   background-color:#227be1;
+   background-image: var(--bs-gradient);  
+   color: white;
+
 }
 .keum {
   background-color:#ffdba6;
+  background-color:#ae4d00;
+  color: white;
 }
 .bio { 
   background-color:rgb(127,178, 197);
@@ -74,10 +84,12 @@ img {
   font-weight :400;
   font-size: large;
   line-height: 1.5em;
+  background-color:rgb(42, 180, 230);
+
 }
 
 .voices {
-  max-width:12rem;
+  max-width:27%;
 }
 .back-color {
   background-color:#90a4b7;
