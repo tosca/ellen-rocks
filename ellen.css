@@ -2,22 +2,21 @@
   margin: 0;
   padding: 0;
 }* 
-{
+/*{
   box-sizing: border-box;
-}
+}*/
 body {
   font-family: 'Nunito Sans', sans-serif;
- font-family: 'Playfair Display S C', serif;                          
-
+ font-family: 'Cormorant Unicase', serif;
+ 
   font-weight: 400;
-  font-family: 'Cormorant Unicase', serif;
    display: block; 
    width: 100%;
   height: auto;
  background-color: #cfefff;
  background-color: #eef4f8;
  background-color: #ffffff;
-  color:#011523;
+  /*color:#011523;*/
 }
 blue{
   color:#0099ff;
@@ -26,52 +25,27 @@ blue{
   background-image: var(--bs-gradient);
 }
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
   font-family: 'Cormorant Unicase', serif;
   font-weight: 400;
 }
-h5, h6, p {
+h5 h6, p {
   font-family: 'Nunito Sans', sans-serif;
   text-align: left;
-}/*p 
-img {
-  width: 100%; 
-  height: auto;
 }
-{ margin-top: 1rem;
-}*/
 .top-banner {
-  background-color:#dfe5ec;
-  background-color:#89b8ef;
   background-color: #227be1;
-  height: 7px;
-}
-.header-section {
-  background-color: white;
-
+  background-color: #ae4d00;
+  height: 5px;
 }
 .ebn {
   color: #dee2d6;
-  color:rgb(216, 216, 216);
-  color: #df7520;
   color: #ae4d00;
-  color:#227be1;
-
-}
-.head-logo {
-  width: 15%;
-}
-.fascinated {
-  width:70%;
-  color:#011523;
-  color:darkblue;
 }
 .stones {
    background-color:#dfe5ec; 
    background-color:#227be1;
-   background-image: var(--bs-gradient);  
+   background: color #0a61a3;;
    color: white;
-
 }
 .keum {
   background-color:#ffdba6;
@@ -112,7 +86,7 @@ img {
 
 /**************/
 /*02. The Deconstructed Pancake 
-flex: 0 1 <baseWidth>*/
+flex: 0 1 <baseWidth>
 .pancake {
   display: flex;
   padding: 1rem;
@@ -120,12 +94,13 @@ flex: 0 1 <baseWidth>*/
   justify-content: center;
 }
 .pancake .box {
-  flex: 1 1 150px; /*  Stretching: */
+  flex: 1 1 150px;
+    Stretching:
   margin: 10px;
   padding: 1rem;
   background:#f8f9fa;
   text-align: center;
-}
+}*/
  /* 04. Pancake Stack
 grid-template-rows: auto 1fr auto 
 .ex4 .parent {
@@ -191,7 +166,8 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
   grid-template-columns: repeat(2, 1fr);
 }
 footer { 
-  background-color:#e6a54a;
+  background-color:#ae4d00;
+  color:white;
 }
 a {
  color: rgb(7, 115, 161);
