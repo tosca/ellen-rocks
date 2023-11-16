@@ -29,23 +29,23 @@ h5 h6, p {
   text-align: left;
 }
 .top-banner {
-  background-color: #227be1;
-  background-color: #ae4d00;
+  background-color:#9d5821;
   height: 5px;
 }
 .ebn {
   color: #dee2d6;
-  color: #ae4d00;
+  color:#9d5821;
 }
 .stones {
    background-color:#dfe5ec; 
    background-color:#227be1;
-   background: color #0a61a3;;
+   background-color:#0a61a3;
    color: white;
+   background-color:#2ab4e6;
 }
 .keum {
-  background-color:#ffdba6;
   background-color:#ae4d00;
+  background-color:#9d5821;
   color: white; 
 }
 .keum-text {
@@ -57,8 +57,8 @@ h5 h6, p {
   font-family: 'Nunito Sans', sans-serif;
   font-weight :400;
   font-size: large;
-  line-height: 1.5em;
-  background-color:rgb(42, 180, 230);
+  line-height: 1.5em; 
+  background-color: #7a1f1f;
 }
 .fossil-container {
   margin: 3%;
@@ -71,7 +71,7 @@ h5 h6, p {
   max-width:27%;
 }
 .back-color {
-  background-color:#90a4b7;
+  background-color:#c3d1de;
 }
 .zoom {
   background-color: white;
@@ -88,7 +88,6 @@ h5 h6, p {
   font-weight: 400;
   font-size: 1.3em;
 }
-
 .span-grid {
   display: grid;
   padding: 1rem;
@@ -116,7 +115,6 @@ h5 h6, p {
   width: 100%; 
   height: auto;
   }
-
   /* 07. RAM (Repeat, Auto, Minmax)
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
@@ -128,17 +126,14 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
   place-items: center;
   text-align: center;
   padding: 3rem;
+  padding: 4rem;
 }
-.ram-bio {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-}
-.statement { 
-  background-color: white;
-}
+/*.ram-bio {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}*/
   /* 08. Line Up justify-content: space-between */
 .card-lineup { 
-  background-color: #7a1f1f;
+ 
   height: auto;
   display: grid;
   grid-gap: 1rem;
