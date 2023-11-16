@@ -2,17 +2,13 @@
   margin: 0;
   padding: 0;
 }* 
-/*{
-  box-sizing: border-box;
-}*/
 body {
   font-family: 'Nunito Sans', sans-serif;
- font-family: 'Cormorant Unicase', serif;
- 
+  font-family: 'Cormorant Unicase', serif;
   font-weight: 400;
-   display: block; 
+   /*display: block; 
    width: 100%;
-  height: auto;
+  height: auto;*/
  background-color: #cfefff;
  background-color: #eef4f8;
  background-color: #ffffff;
@@ -50,7 +46,11 @@ h5 h6, p {
 .keum {
   background-color:#ffdba6;
   background-color:#ae4d00;
-  color: white;
+  color: white; 
+}
+.keum-text {
+  margin-left: 10rem;
+  padding-right: 10rem;
 }
 .bio { 
   background-color:rgb(127,178, 197);
@@ -59,9 +59,14 @@ h5 h6, p {
   font-size: large;
   line-height: 1.5em;
   background-color:rgb(42, 180, 230);
-
 }
-
+.fossil-container {
+  margin: 3%;
+}
+.fossil {
+  max-width:13rem;
+  margin: 1rem;
+}
 .voices {
   max-width:27%;
 }
@@ -84,32 +89,6 @@ h5 h6, p {
   font-size: 1.3em;
 }
 
-/**************/
-/*02. The Deconstructed Pancake 
-flex: 0 1 <baseWidth>
-.pancake {
-  display: flex;
-  padding: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.pancake .box {
-  flex: 1 1 150px;
-    Stretching:
-  margin: 10px;
-  padding: 1rem;
-  background:#f8f9fa;
-  text-align: center;
-}*/
- /* 04. Pancake Stack
-grid-template-rows: auto 1fr auto 
-.ex4 .parent {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-  }
-*/
- /* 06. 12-Span Grid
-grid-template-columns: repeat(12, 1fr) */
 .span-grid {
   display: grid;
   padding: 1rem;
@@ -169,6 +148,7 @@ footer {
   background-color:#ae4d00;
   color:white;
 }
+
 a {
  color: rgb(7, 115, 161);
 }
