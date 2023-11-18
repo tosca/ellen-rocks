@@ -6,19 +6,8 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Cormorant Unicase', serif;
   font-weight: 400;
-   /*display: block; 
-   width: 100%;
-  height: auto;*/
- background-color: #cfefff;
- background-color: #eef4f8;
- background-color: #ffffff;
-  /*color:#011523;*/
-}
-blue{
-  color:#0099ff;
-}
-.blue-gradient {
-  background-image: var(--bs-gradient);
+  background-color: #fffbfa;
+  background-color: #ecebeb;
 }
 h1, h2, h3, h4 {
   font-family: 'Cormorant Unicase', serif;
@@ -30,11 +19,16 @@ h5 h6, p {
 }
 .top-banner {
   background-color:#9d5821;
-  height: 5px;
 }
 .ebn {
   color: #dee2d6;
   color:#9d5821;
+}
+.white {
+  color: #dee2d6;
+}
+.statement {
+  max-width: 50rem;
 }
 .stones {
    background-color:#dfe5ec; 
@@ -67,8 +61,9 @@ h5 h6, p {
   max-width:13rem;
   margin: 1rem;
 }
+
 .voices {
-  max-width:27%;
+  max-width:40%;
 }
 .back-color {
   background-color:#c3d1de;
@@ -88,7 +83,7 @@ h5 h6, p {
   font-weight: 400;
   font-size: 1.3em;
 }
-.span-grid {
+/*.span-grid {
   display: grid;
   padding: 1rem;
   margin: 15px;
@@ -114,7 +109,7 @@ h5 h6, p {
   grid-column: 2 / span 6;
   width: 100%; 
   height: auto;
-  }
+  }*/
   /* 07. RAM (Repeat, Auto, Minmax)
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
