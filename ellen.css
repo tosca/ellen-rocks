@@ -5,7 +5,6 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Cormorant Unicase', serif;
-  font-weight: 400;
   background-color: #fffbfa;
   background-color: #ecebeb;
 }
@@ -23,6 +22,7 @@ h5 h6, p {
 .ebn {
   color: #dee2d6;
   color:#9d5821;
+  color: #984d20;
 }
 .white {
   color: #dee2d6;
@@ -32,27 +32,22 @@ h5 h6, p {
 }
 .stones {
    background-color:#dfe5ec; 
-   background-color:#227be1;
-   background-color:#0a61a3;
+   background-color:#23748796;
    color: white;
-   background-color:#2ab4e6;
 }
 .keum {
-  background-color:#ae4d00;
-  background-color:#9d5821;
-  color: white; 
+  background-color:#ccb457; 
 }
 .keum-text {
   margin-left: 10rem;
   padding-right: 10rem;
 }
 .bio { 
-  background-color:rgb(127,178, 197);
   font-family: 'Nunito Sans', sans-serif;
   font-weight :400;
   font-size: large;
   line-height: 1.5em; 
-  background-color: #7a1f1f;
+  background-color: #4d6e6af2;
 }
 .fossil-container {
   margin: 3%;
@@ -83,33 +78,8 @@ h5 h6, p {
   font-weight: 400;
   font-size: 1.3em;
 }
-/*.span-grid {
-  display: grid;
-  padding: 1rem;
-  margin: 15px;
-  margin: 30px;
-  background: rgb(221, 195, 156);
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5, 1fr;
-  grid-row-gap: 10px;
-  font-size: 2rem;
-  text-align: center;
-}  
-.span-12 {
-  display: grid;
-  color: #0921be;
-  place-items: center;
-  grid-column: 1 / span 12;
-  width: 100%; 
-  text-align: center; 
-  }
- .span-6 {
-  display: grid;
-  place-items: center;
-  grid-column: 2 / span 6;
-  width: 100%; 
-  height: auto;
-  }*/
+
+
   /* 07. RAM (Repeat, Auto, Minmax)
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
@@ -138,7 +108,6 @@ footer {
   background-color:#ae4d00;
   color:white;
 }
-
 a {
  color: rgb(7, 115, 161);
 }
