@@ -3,10 +3,11 @@
   padding: 0;
 }* 
 body {
+  overflow-x: hidden;
+  width: 100%!important;
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Cormorant Unicase', serif;
-  background-color: #fffbfa;
-  background-color: #ecebeb;
+  background-color: #fdfdfd;
 }
 h1, h2, h3, h4 {
   font-family: 'Cormorant Unicase', serif;
@@ -23,8 +24,14 @@ h5 h6, p {
 .white {
   color: #dee2d6;
 }
+.header-section{
+  padding: 1rem;
+}
 .statement {
-  max-width: 50rem;
+  max-width: 30rem;
+}
+.main-section {
+  width: 100%;
 }
 .stones {
    background-color:#dfe5ec; 
@@ -35,8 +42,8 @@ h5 h6, p {
   background-color:#ccb457; 
 }
 .keum-text {
-  margin-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .bio { 
   font-family: 'Nunito Sans', sans-serif;
@@ -45,8 +52,8 @@ h5 h6, p {
   line-height: 1.5em; 
   background-color: #4d6e6af2;
 }
-.fossil-container {
-  margin: 3%;
+.fossil-place {
+  background-color:#a49582;
 }
 .fossil {
   max-width:13rem;
@@ -102,8 +109,8 @@ footer {
   color:white;
 }
 a {
- color: rgb(7, 115, 161);
+ color: rgb(7, 66, 161);
 }
 a:hover {
-  color: rgb(159, 118, 35);
+  color: #23748796;
 }
