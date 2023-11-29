@@ -1,14 +1,17 @@
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-}* 
+
 body {
+  width: auto!important;
   overflow-x: hidden;
-  width: 100%!important;
+  margin: auto;
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Cormorant Unicase', serif;
   background-color: #fdfdfd;
 }
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+}* 
+
 h1, h2, h3, h4 {
   font-family: 'Cormorant Unicase', serif;
   font-weight: 400;
@@ -25,13 +28,13 @@ h5 h6, p {
   color: #dee2d6;
 }
 .header-section{
-  padding: 1rem;
+  padding:0.7rem;
 }
 .statement {
-  max-width: 30rem;
+  max-width: 40rem;
 }
 .main-section {
-  width: 100%;
+  padding-right: 0rem;
 }
 .stones {
    background-color:#dfe5ec; 
@@ -56,11 +59,11 @@ h5 h6, p {
   background-color:#a49582;
 }
 .fossil {
-  max-width:13rem;
+  max-width:7rem;
   margin: 1rem;
 }
 .voices {
-  max-width:40%;
+  max-width: 40%;
 }
 .back-color {
   background-color:#c3d1de;
@@ -80,6 +83,7 @@ h5 h6, p {
   font-weight: 400;
   font-size: 1.3em;
 }
+
  /* 07. RAM (Repeat, Auto, Minmax)
 grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 .ram {
@@ -113,4 +117,10 @@ a {
 }
 a:hover {
   color: #23748796;
+}
+@media (min-width: 1200px) {
+ body {
+   max-width: 1170px;
+
+  }
 }
