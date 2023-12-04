@@ -31,7 +31,8 @@ h5 h6, p {
   padding:0.7rem;
 }
 .statement {
-  max-width: 40rem;
+  padding-left : 5rem;
+  padding-right: 5rem;
 }
 .main-section {
   padding-right: 0rem;
