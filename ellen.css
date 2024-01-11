@@ -50,10 +50,10 @@ h5 h6, p {
   font-weight :400;
   font-size: large;
   line-height: 1.5em; 
-  background-color: #4d6e6af2;
+  background-color:#b99f7f;
 }
 .fossil-place {
-  background-color:#a49582;
+  background-color:#b99f7f;
 }
 .fossil {
   max-width:7rem;
