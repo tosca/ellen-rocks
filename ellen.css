@@ -1,16 +1,36 @@
 
-body {
+/*body {
   width: auto!important;
   overflow-x: hidden;
+  overscroll-behavior-x: none;
   margin: auto;
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Cormorant Unicase', serif;
   background-color: #fdfdfd;
+}*/
+
+/* Prevent horizontal scrolling */
+html, body {
+    overflow-x: hidden;   /* Hide horizontal overflow */
+    width: 100%;          /* Ensure full width fits viewport */
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Cormorant Unicase', serif;
+  background-color: #fdfdfd;
 }
+
+/* Ensure all elements fit inside the viewport */
+* {
+    box-sizing: border-box; /* Prevents padding/margin from expanding width */
+    max-width: 100%;        /* Avoids elements overflowing */
+}
+/*
 *, *:before, *:after {
   margin: 0;
   padding: 0;
-}* 
+}*
+ */
 
 h1, h2, h3, h4 {
   font-family: 'Cormorant Unicase', serif;
@@ -99,7 +119,6 @@ grid-template-columns: repeat(auto-fit, minmax(<base>, 1fr)) */
 }*/
   /* 08. Line Up justify-content: space-between */
 .card-lineup { 
- 
   height: auto;
   display: grid;
   grid-gap: 1rem;
@@ -115,9 +134,3 @@ a {
 a:hover {
   color: #23748796;
 }
-/*@media (min-width: 1200px) {
- body {
-   max-width: 1170px;
-  }
-}
-*/
