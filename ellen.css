@@ -115,7 +115,7 @@ a {
 a:hover {
   color: #23748796;
 }
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
  body {
    max-width: 1170px;
 
